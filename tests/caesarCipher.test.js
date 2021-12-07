@@ -1,4 +1,4 @@
-const caesarCipher = require('../code/caesarCipher');
+import caesarCipher from '../code/caesarCipher.js';
 
 test('Can shift by 3', () => {
   expect(caesarCipher('example', 3)).toEqual('hadpsoh');

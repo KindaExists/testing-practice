@@ -7,4 +7,4 @@ const calculator = (() => {
   return { add, subtract, multiply, divide };
 })();
 
-module.exports = calculator;
+export default calculator;

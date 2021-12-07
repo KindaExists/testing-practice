@@ -6,7 +6,7 @@ function shiftCharCode(charCode, shift, minCode, maxCode) {
   return shifted + minCode;
 }
 
-function caesarCipher(string, shift) {
+export default function caesarCipher(string, shift) {
   const chars = string.split('');
   const shifted = chars.map(char => {
     const charCode = char.charCodeAt();
@@ -28,5 +28,3 @@ function caesarCipher(string, shift) {
   });
   return shifted.join('');
 }
-
-module.exports = caesarCipher;

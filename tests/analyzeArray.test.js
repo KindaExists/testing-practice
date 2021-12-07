@@ -1,4 +1,4 @@
-const analyzeArray = require('../code/analyzeArray');
+import analyzeArray from '../code/analyzeArray.js';
 
 test('It works', () => {
   expect(analyzeArray([1,8,3,4,2,6])).toEqual({

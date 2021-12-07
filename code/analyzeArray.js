@@ -1,4 +1,4 @@
-function analyzeArray(arr) {
+export default function analyzeArray(arr) {
   return {
     average: arr.reduce((sum, value) => {
       return sum + value;
@@ -8,5 +8,3 @@ function analyzeArray(arr) {
     length: arr.length
   };
 };
-
-module.exports = analyzeArray;
